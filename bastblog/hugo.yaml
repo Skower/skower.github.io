@@ -1,0 +1,101 @@
+baseURL: skower.github.io
+languageCode: en-us
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+title: bastblog
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: BastBlog
+  description: "Machine learning, Infrastructure and Computer Science Blog."
+  keywords: [Blog, Portfolio, PaperMod, Deep Learning, Machine Learning, Computer Science]
+  author: Bastien
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Bastien's blog"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "💻 Welcome to bastien's blog"
+    Content: Hello, I'm Bastien, a passionate Computer Science student with a keen interest in programming, infrastructure, and deep learning. Through this blog, I aim to document various topics that captivate my curiosity.
+  
+  socialIcons:
+    - name: x
+      url: "https://x.com/"
+    - name: github
+      url: "https://github.com/bastienp"
+    - name: gitlab
+      url: "https://gitlab.com/bastienp"
+
+menu:
+  main:
+    - identifier: FAQ
+      name: FAQ
+      url: /FAQ/
+      weight: 20
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
