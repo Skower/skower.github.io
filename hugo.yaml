@@ -84,9 +84,9 @@ params:
     - name: x
       url: "https://x.com/"
     - name: github
-      url: "https://github.com/bastienp"
+      url: "https://github.com/bastienpo"
     - name: gitlab
-      url: "https://gitlab.com/bastienp"
+      url: "https://gitlab.com/bastienpo"
 
 menu:
   main:
